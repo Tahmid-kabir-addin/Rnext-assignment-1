@@ -642,7 +642,21 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-clifford {
+  --tw-text-opacity: 1;
+  color: rgb(218 55 61 / var(--tw-text-opacity));
 }
