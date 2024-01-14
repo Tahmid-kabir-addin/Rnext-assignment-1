@@ -8,7 +8,7 @@ export default function StudentTableData({ studentData, index }) {
             className="w-8 h-8 rounded-full"
             src={
               "https://randomuser.me/api/portraits/men/" +
-              `${index + 1}` +
+              `${studentData.id}` +
               ".jpg"
             }
             width="32"
