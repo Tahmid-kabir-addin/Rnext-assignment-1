@@ -5,8 +5,12 @@ export default function StudentTableData({ studentData, index }) {
       <td className="p-5 text-sm md:text-xl">
         <div className="flex space-x-3 items-center">
           <img
-            className="w-8 h-8"
-            src="avatar.png"
+            className="w-8 h-8 rounded-full"
+            src={
+              "https://randomuser.me/api/portraits/men/" +
+              `${index + 1}` +
+              ".jpg"
+            }
             width="32"
             height="32"
             alt="John Smith"
